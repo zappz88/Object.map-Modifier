@@ -24,6 +24,4 @@ var images = {
                 rain: url('https://i.pinimg.com/originals/23/d8/ab/23d8ab1eebc72a123cebc80ce32b43d8.jpg')
             };
             
-The object's original structure is left intact allowing for normal property access as long as there isn't a return.
-
-Also wanted to note that variable assignment allows for original object to remain untouched while new is assigned to variable. Do NOT have it return an array and everything will be fine. The goal is REASSIGNING the original values (images[key]) to what is wanted and not anything else. As far as I know, in order to prevent array output there HAS to be REASSIGNMENT of images[key].
+The object's original structure is left intact allowing for normal property access as long as there isn't a return. Do NOT have it return an array and everything will be fine. The goal is REASSIGNING the original values (images[key]) to what is wanted and not anything else. As far as I know, in order to prevent array output there HAS to be REASSIGNMENT of images[key].
