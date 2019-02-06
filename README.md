@@ -16,6 +16,7 @@ var images = {
             };
             
 ...and modified is this:
+
 var images = {
                 snow: url('https://www.trbimg.com/img-5aa059f5/turbine/bs-md-weather-20180305'),
                 sunny: url('http://www.cubaweather.org/images/weather-photos/large/Sunny-morning-east-Matanzas-city-
